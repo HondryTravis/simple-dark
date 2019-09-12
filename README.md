@@ -1,13 +1,11 @@
-# README
-## This is the README for your extension "simple-dark"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Simple dark Theme
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+one best simple dark theme for vscode.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+![1.png](https://upload-images.jianshu.io/upload_images/4115579-719a1b2a9108dc77.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![2.png](https://upload-images.jianshu.io/upload_images/4115579-92bd0e1d41a1bfd5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![3.png](https://upload-images.jianshu.io/upload_images/4115579-271d14b12c2981db.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 **Enjoy!**
