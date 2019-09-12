@@ -3,7 +3,8 @@
     "displayName": "Simple Dark",
     "publisher": "travis",
     "description": "A simple Dark theme",
-    "version": "0.0.3",
+    "version": "0.0.4",
+    "icon": "logo.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/HondryTravis/simple-dark.git"
