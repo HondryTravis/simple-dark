@@ -1,26 +1,40 @@
 const eidtorColor = require('./baseColor')
 const colors = {
-    // 编辑器code块字体和背景
+    // code
     "editor.background": eidtorColor['baseColor']['content'],
     "editor.foreground": eidtorColor['baseColor']['whiteGray'],
-    // 编辑器侧边栏
+    // sidebar
     "sideBar.background": eidtorColor['baseColor']['black'],
     "sideBarTitle.foreground": eidtorColor['baseColor']['white'],
-    // 编辑器活动栏
+    // active bar 
     "activityBar.background": eidtorColor['baseColor']['blackGray'],
     "activityBar.foreground": eidtorColor['baseColor']['white'],
     "activityBarBadge.background": eidtorColor['baseColor']['blueLight'],
-    // 状态栏
+    // status bgcolor
     "statusBar.background": eidtorColor['baseColor']['black'],
-    // 顶部选项卡背景颜色
+    // top tab goup settings
     "editorGroupHeader.tabsBackground": eidtorColor['baseColor']['black'],
     "tab.activeBackground": eidtorColor['baseColor']['content'],
     "tab.inactiveBackground": eidtorColor['baseColor']['blackGray'],
-    // 编辑器选中颜色
+    // editor selected attr 
     "editor.selectionBackground": eidtorColor['baseColor']['blackGrayLight'],
+    "editor.selectionForeground": eidtorColor['baseColor']['white'],
     "editor.selectionHighlightBackground": eidtorColor['baseColor']['blackGrayLight'],
     "editor.wordHighlightBackground":  eidtorColor['baseColor']['blackGrayLight'],
     "editor.wordHighlightStrongBackground": eidtorColor['baseColor']['blackGrayLight'],
+    // find Match attr
+    "editor.findMatchBackground": eidtorColor['baseColor']['blackGrayLowerLight'],
+    "editor.findMatchHighlightBackground": eidtorColor['baseColor']['blackGrayLight'],
+
+    // mouse hover color 
+    "editor.hoverHighlightBackground": eidtorColor['baseColor']['blackGrayLight'],
+
+    // git 
+    "gitDecoration.modifiedResourceForeground": eidtorColor['baseColor']['yellow'],
+    "gitDecoration.addedResourceForeground": eidtorColor['baseColor']['green'],
+    "gitDecoration.deletedResourceForeground": eidtorColor['baseColor']['red'],
+    // mini findMatch color
+    "minimap.findMatchHighlight": eidtorColor['baseColor']['green'],
 }
 module.exports = {
     colors
