@@ -1,7 +1,7 @@
 {
     "name": "simple-dark",
     "displayName": "Simple Dark",
-    "description": "",
+    "description": "A simple Dark theme",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.38.0"
