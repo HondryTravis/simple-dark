@@ -1,0 +1,24 @@
+{
+    "name": "simple-dark",
+    "displayName": "Simple Dark",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "scripts": {
+        "build": "node build.js"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Simple Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Simple Dark-color-theme.json"
+            }
+        ]
+    }
+}
