@@ -1,4 +1,4 @@
-const baseColor = {
+const color = {
    black: "#1d1e21",
    blackGray: "#2c2f32",
    blackGrayLight: "#444444",
@@ -19,7 +19,6 @@ const baseColor = {
    cyanBlue: "#8BE9FD",
    purple: "#BD93F9",
 }
-
 module.exports= {
-   baseColor
+   color
 }

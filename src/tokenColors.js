@@ -1,4 +1,4 @@
-const codeStyle = require('./baseColor')
+const codeStyle = require('./color.base')
 
 const tokenColors = [
     {
