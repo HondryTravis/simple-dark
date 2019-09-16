@@ -6,8 +6,10 @@ const minimap = require('./minimap')
 const sideBar = require('./sideBar')
 const statusBar = require('./statusBar')
 const tab = require('./tab')
-let colors = {}
-Object.assign(colors, activeBar, editor, editorGroupHeader, gitDecoration, minimap,sideBar,statusBar,tab)
+const list = require('./list')
+const terminal = require('./terminal')
+let colors = Object.assign({}, activeBar, editor, editorGroupHeader, gitDecoration, minimap,sideBar,statusBar,tab, list, terminal)
+
 module.exports = {
     colors
 }

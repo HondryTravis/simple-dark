@@ -1,11 +1,8 @@
 const fs = require('fs');
-const baseInfo = require('./src/baseInfo')
-const codeStyle = require('./src/tokenColors')
-const editorStyle = require('./src/colors')
-
-const result = Object.assign({}, baseInfo)
-Object.assign(result, editorStyle)
-Object.assign(result, codeStyle)
+const info = require('./src/about/info')
+const codeStyle = require('./src/CodeAooearance/tokenColors')
+const editorStyle = require('./src/EditorAppearance/colors')
+const result = Object.assign({}, info, editorStyle, codeStyle)
 
 fs.writeFileSync(
     './themes/Simple Dark-color-theme.json',
