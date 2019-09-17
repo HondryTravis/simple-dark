@@ -3,7 +3,7 @@ const color = require('../base/color')
 module.exports = {
     // code main
     "editor.background": color['gray'],
-    "editor.foreground": color['whiteGray'],
+    "editor.foreground": color['white'],
     // find Match attr
     "editor.findMatchBackground": color['blackGrayLowerLight'],
     "editor.findMatchHighlightBackground": color['blackGrayLight'],
@@ -20,4 +20,5 @@ module.exports = {
     // bugs
     "editorWarning.foreground": color['red'],
     "editorInfo.foreground": color['green'],
+    "walkThrough.embeddedEditorBackground": color['black']
 }

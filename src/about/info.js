@@ -1,4 +1,6 @@
 module.exports = {
     "name": "Simple Dark",
-    "type": "dark"
+    "type": "dark",
+    "author": "Hondry Travis",
+    "maintainers": "travis<Hondry.Travis@outlook.com>"
 }

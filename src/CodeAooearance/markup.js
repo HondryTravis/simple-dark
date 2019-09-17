@@ -1,0 +1,90 @@
+// markup
+const color = require('../base/color')
+module.exports = [
+  {
+    "name": "MarkDown - paragraph",
+    "scope": [
+      "meta.paragraph.markdown",
+      "text.html.markdown"
+    ],
+    "settings": {
+      "foreground": color['whiteGray']
+    }
+  },
+  {
+    "name": "MarkDown - heading",
+    "scope": [
+      "punctuation.definition.heading.markdown",
+    ],
+    "settings": {
+      "foreground": color['pink']
+    }
+  },
+  {
+    "name": "MarkDown - heading content",
+    "scope": [
+      "markup.heading.markdown"
+    ],
+    "settings": {
+      "foreground": color['blueLight']
+    }
+  },
+  {
+    "name": "MarkDown - code mark",
+    "scope": [
+      "punctuation.definition.markdown",
+      "markup.fenced_code.block.markdown"
+    ],
+    "settings": {
+      "foreground": color['greenLight']
+    }
+  },
+  {
+    "name": "MarkDown - raw code mark",
+    "scope": [
+      "punctuation.definition.raw.markdown",
+      "markup.inline.raw.string.markdown",
+    ],
+    "settings": {
+      "foreground": color['green']
+    }
+  },
+  {
+    "name": "MarkDown - underline",
+    "scope": [
+      "markup.underline.link.markdown",
+    ],
+    "settings": {
+      "foreground": color['blueLight']
+    }
+  },
+  {
+    "name": "MarkDown - inline underline",
+    "scope": [
+      "meta.link.inline.markdown",
+    ],
+    "settings": {
+      "foreground": color['orange']
+    }
+  },
+  {
+    "name": "MarkDown - bold",
+    "scope": [
+      "punctuation.definition.bold.markdown",
+      "markup.bold.markdown"
+    ],
+    "settings": {
+      "foreground": color['orange']
+    }
+  },
+  {
+    "name": "MarkDown - list",
+    "scope": [
+      "punctuation.definition.list.begin.markdown",
+      "markup.list.unnumbered.markdown"
+    ],
+    "settings": {
+      "foreground": color['orange']
+    }
+  }
+]
