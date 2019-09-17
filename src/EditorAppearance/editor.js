@@ -20,5 +20,4 @@ module.exports = {
     // bugs
     "editorWarning.foreground": color['red'],
     "editorInfo.foreground": color['green'],
-    "walkThrough.embeddedEditorBackground": color['black']
 }
