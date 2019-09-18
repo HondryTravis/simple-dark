@@ -50,7 +50,7 @@ module.exports = [
     },
     {
         "scope": [
-            "punctuation.definition.block.tag.jsdoc"
+            "punctuation.definition.block.tag.jsdoc",
         ],
         "settings": {
             "foreground": color['pink']
@@ -66,12 +66,15 @@ module.exports = [
         }
     },
     {
+
+      "name": "less,css,sass,html",
       "scope": [
-        "punctuation.separator.key-value.html",
-        "punctuation.definition.variable.less",
-        "punctuation.definition.keyword.css",
-        "variable.other.less",
-        "punctuation.definition.entity.css"
+        "punctuation.separator.key-value",
+        "punctuation.definition.variable",
+        "punctuation.definition.keyword",
+        "keyword.control.at-rule.import",
+        "punctuation.definition.entity.css",
+        "variable.other.less"
       ],
       "settings": {
         "foreground": color['pink']

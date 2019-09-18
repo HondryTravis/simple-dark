@@ -3,7 +3,7 @@
     "displayName": "Simple Dark",
     "publisher": "travis",
     "description": "A simple Dark theme",
-    "version": "0.0.9",
+    "version": "0.1.0",
     "icon": "logo.png",
     "keywords": [
       "vscode theme",
