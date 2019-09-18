@@ -24,19 +24,11 @@ module.exports = [
     {
         "name": "class Name",
         "scope": [
-            "entity.name.type"
-        ],
-        "settings": {
-            "foreground": color['blueLight']
-        }
-    },
-    {
-        "name": "class Name",
-        "scope": [
+            "entity.name.type",
             "entity.other.inherited-class"
         ],
         "settings": {
-            "foreground": color['cyan']
+            "foreground": color['blueLight']
         }
     }
 ]

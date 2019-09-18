@@ -86,5 +86,34 @@ module.exports = [
     "settings": {
       "foreground": color['orange']
     }
+  },
+  {
+    "name": "MarkDown - image",
+    "scope": [
+      "punctuation.definition.string.begin.markdown",
+    ],
+    "settings": {
+      "foreground": color['pink']
+    }
+     
+  },
+  {
+    "name": "MarkDown - image - link",
+    "scope": [
+      "markup.underline.link.image.markdown",
+      // "meta.image.inline.markdown"
+    ],
+    "settings": {
+      "foreground": color['blueLight']
+    }//string.other.link.description.markdown
+  },
+  {
+    "name": "MarkDown - image - description",
+    "scope": [
+      "string.other.link.description.markdown",
+    ],
+    "settings": {
+      "foreground": color['yellowLight']
+    }
   }
 ]

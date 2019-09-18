@@ -26,7 +26,9 @@ module.exports = [
         "name": "Function parameters in the function color variable",
         "scope": [
             "variable.other.object",
-            "meta.function-call"
+            "variable.other.object.property",
+            "variable.other.property",
+            "meta.function-call",
         ],
         "settings": {
             "foreground": color['orange']

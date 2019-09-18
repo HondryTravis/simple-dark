@@ -8,8 +8,20 @@ const statusBar = require('./statusBar')
 const tab = require('./tab')
 const list = require('./list')
 const terminal = require('./terminal')
-let colors = Object.assign({}, activeBar, editor, editorGroupHeader, gitDecoration, minimap,sideBar,statusBar,tab, list, terminal)
-
+const panel = require('./panel')
+const colors = Object.assign({}, 
+  activeBar,
+  editor,
+  editorGroupHeader,
+  gitDecoration,
+  minimap,
+  sideBar,
+  statusBar,
+  tab,
+  list,
+  terminal,
+  panel
+  )
 module.exports = {
     colors
 }

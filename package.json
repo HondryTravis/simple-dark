@@ -3,8 +3,13 @@
     "displayName": "Simple Dark",
     "publisher": "travis",
     "description": "A simple Dark theme",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "icon": "logo.png",
+    "keywords": [
+      "vscode theme",
+      "theme simple",
+      "simple dark"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/HondryTravis/simple-dark.git"

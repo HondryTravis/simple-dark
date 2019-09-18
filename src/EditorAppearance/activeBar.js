@@ -4,4 +4,6 @@ module.exports = {
      "activityBar.background": color['blackGray'],
      "activityBar.foreground": color['white'],
      "activityBarBadge.background": color['blueLight'],
+
+     "panelTitle.activeBorder": color['blueLight']
 }

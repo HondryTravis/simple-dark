@@ -9,9 +9,10 @@ module.exports = [
             "support.class",
             "support.variable.property",
             "support.function.console",
+            "support.type.primitive",
             "support.type.object.module",
             "support.function",
-            "support.type.property-name.css"
+            "support.type.property-name.css",
         ],
         "settings": {
             "foreground": color['cyan']

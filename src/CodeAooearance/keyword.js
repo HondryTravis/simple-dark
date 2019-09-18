@@ -9,6 +9,15 @@ module.exports = [
         "settings": {
             "foreground": color['pink']
         }
+    },
+    {
+      "name": 'keyword new',
+      "scope": [
+        "keyword.operator.new"
+      ],
+      "settings": {
+        "fontStyle": 'bold',
+      }
     }
 ]
     
