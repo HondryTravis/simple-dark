@@ -13,7 +13,7 @@ module.exports = [
         }
     },
     {
-        "name": "Function variable",
+        "name": "Function parameter variable",
         "scope": [
             "variable.parameter"
         ],
@@ -22,18 +22,20 @@ module.exports = [
             "foreground": color['orange']
         }
     },
-    {
-        "name": "Function parameters in the function color variable",
-        "scope": [
-            "variable.other.object",
-            "variable.other.object.property",
-            "variable.other.property",
-            "meta.function-call",
-        ],
-        "settings": {
-            "foreground": color['orange']
-        }
-    },
+    // had more bugs
+    // {
+    //     "name": "Function parameters in the function color variable",
+    //     "scope": [
+    //         "variable.other.object",
+    //         "variable.other.object.property",
+    //         "variable.other.property",
+    //         "variable.other.readwrite",
+    //         "meta.function-call",
+    //     ],
+    //     "settings": {
+    //         "foreground": color['orange']
+    //     }
+    // },
     {
         "name": "Function this variable",
         "scope": [
@@ -56,7 +58,8 @@ module.exports = [
     },
     {
         "scope": [
-            "variable.other.constant.property"
+            "variable.other.constant.property",
+            "variable.other.constant.object.property."
         ],
         "settings": {
             "foreground": color['purple']
