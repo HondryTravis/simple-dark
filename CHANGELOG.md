@@ -12,3 +12,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - change some settings
 - Fiexd Markdown color
+
+## [released 0.1.0]
+
+- update Style attribute color
+
+## [released 0.1.1]
+
+- restore code block code，in function variable parameter code color,white
+
+## [released 0.1.2]
+
+- update in template string parameter color style

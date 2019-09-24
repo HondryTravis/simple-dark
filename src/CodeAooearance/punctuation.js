@@ -51,6 +51,8 @@ module.exports = [
     {
         "scope": [
             "punctuation.definition.block.tag.jsdoc",
+            "punctuation.definition.template-expression.begin",
+            "punctuation.definition.template-expression.end"
         ],
         "settings": {
             "foreground": color['pink']
