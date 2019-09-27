@@ -1,6 +1,6 @@
 const fs = require('fs');
 const info = require('./src/about/info')
-const codeStyle = require('./src/CodeAooearance/tokenColors')
+const codeStyle = require('./src/CodeAppearance/tokenColors')
 const editorStyle = require('./src/EditorAppearance/colors')
 const result = Object.assign({}, info, editorStyle, codeStyle)
 
