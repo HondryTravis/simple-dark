@@ -1,9 +1,18 @@
 # Simple dark Theme
 
-one best simple dark theme for vscode.
+**Allo~**
 
-**PLS Enjoy!**
+this library is a simple and clear dark style theme for VSCode
 
-![4.jpg](https://upload-images.jianshu.io/upload_images/4115579-8d738cf9f358e655.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+let's look that
 
-![5.jpg](https://upload-images.jianshu.io/upload_images/4115579-64b4a5b8db689576.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+## code style for typescript/javascript/more...
+![code](/images/tscode.png)
+## html style 
+![html](/images/html.png)
+## markdown style 
+![markdown](/images/markdown.png)
+## this vscode theme Apperaence
+![appearence](/images/appearence.png)
+
+would you like this one, please give this library a star ~

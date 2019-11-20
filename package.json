@@ -2,8 +2,8 @@
     "name": "simple-dark",
     "displayName": "Simple Dark",
     "publisher": "travis",
-    "description": "A simple Dark theme",
-    "version": "0.1.2",
+    "description": "This one is Simple Dark Theme for VSCode",
+    "version": "0.1.3",
     "icon": "logo.png",
     "keywords": [
       "vscode theme",

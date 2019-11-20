@@ -24,3 +24,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [released 0.1.2]
 
 - update in template string parameter color style
+
+## [released 0.1.3]
+
+- update readme.md and then add local Images file to make this theme explain look clearer
