@@ -9,6 +9,7 @@ const tab = require('./tab')
 const list = require('./list')
 const terminal = require('./terminal')
 const panel = require('./panel')
+
 const colors = Object.assign({}, 
   activeBar,
   editor,
