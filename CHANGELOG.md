@@ -2,7 +2,9 @@
 
 All notable changes to the "simple-dark" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [released 0.1.6]
+
+- update CHANGELOG file
 
 ## [released 0.1.5]
 
