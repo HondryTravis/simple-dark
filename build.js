@@ -4,7 +4,6 @@ const codeStyle = require('./src/CodeAppearance/tokenColors')
 const editorStyle = require('./src/EditorAppearance/colors')
 const result = Object.assign({}, info, editorStyle, codeStyle)
 
-fs.writeFileSync(
-    './themes/Simple Dark-color-theme.json',
-    JSON.stringify(result)
-)
+const data = JSON.stringify(result)
+const _path = './themes/Simple Dark-color-theme.json'
+fs.writeFileSync(_path, data)

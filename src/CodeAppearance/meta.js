@@ -1,4 +1,8 @@
-// meta.js
+/**
+ * @scope meta
+ * Meta scopes are used to scope larger sections of code or markup, generally containing multiple, more specific scopes. These are not intended to be styled by a color scheme, but used by preferences and plugins.
+ * you can be changed to you love the color 
+ */
 const color = require('../base/color')
 
 module.exports = [

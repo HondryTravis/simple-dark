@@ -1,3 +1,8 @@
+/**
+ * @config all config assign this file
+ * code variable style in this file
+ * you can be changed to you love the color 
+ */
 const comments = require('./comment')
 const variable = require('./variable')
 const invalid = require('./invalid')

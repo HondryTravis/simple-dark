@@ -1,4 +1,8 @@
-// string
+/**
+ * @scope string
+ * code string style in this file
+ * you can be changed to you love the color  
+ */
 const color = require('../base/color')
 
 module.exports = [

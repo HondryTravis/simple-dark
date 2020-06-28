@@ -1,3 +1,8 @@
+/**
+ * @scope constant
+ * Numeric literals, including integers, floats, etc.
+ * you can be changed to you love the color 
+ */
 const color = require('../base/color')
 module.exports = [
     {

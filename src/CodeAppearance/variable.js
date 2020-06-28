@@ -1,3 +1,8 @@
+/**
+ * @scope variable
+ * code variable style in this file
+ * you can be changed to you love the color 
+ */
 const color = require('../base/color')
 
 module.exports = [
@@ -15,27 +20,14 @@ module.exports = [
     {
         "name": "Function parameter variable",
         "scope": [
-            "variable.parameter"
+            "variable.parameter",
+            "entity.name.variable.parameter.cs",
         ],
         "settings": {
             "fontStyle": "italic",
             "foreground": color['orange']
         }
     },
-    // had more bugs
-    // {
-    //     "name": "Function parameters in the function color variable",
-    //     "scope": [
-    //         "variable.other.object",
-    //         "variable.other.object.property",
-    //         "variable.other.property",
-    //         "variable.other.readwrite",
-    //         "meta.function-call",
-    //     ],
-    //     "settings": {
-    //         "foreground": color['orange']
-    //     }
-    // },
     {
         "name": "Function this variable",
         "scope": [
@@ -51,6 +43,7 @@ module.exports = [
             "meta.return.type.ts",
             "meta.type.annotation",
             "meta.interface.ts",
+            "keyword.type.cs"
         ],
         "settings": {
             "foreground": color['cyan']

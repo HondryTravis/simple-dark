@@ -1,4 +1,8 @@
-// markup
+/**
+ * @scope markup
+ * Markup scopes are used for content, as opposed to code. This includes syntaxes such as Markdown and Textile.
+ * you can be changed to you love the color 
+ */
 const color = require('../base/color')
 module.exports = [
   {

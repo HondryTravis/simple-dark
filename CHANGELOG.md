@@ -4,6 +4,11 @@ All notable changes to the "simple-dark" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [released 0.1.5]
+
+- Fixed c# function parameter variable color
+- Fixed c# keyword type color
+
 ## [released 0.1.4]
 
 - changed logo

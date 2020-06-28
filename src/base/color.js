@@ -1,3 +1,8 @@
+/**
+ * @base_color Theme main color config
+ * Single and multi-line comments
+ * you can be changed to you love the color
+ */
 module.exports = {
     // content and editor appearence
     black: "#1d1e21",

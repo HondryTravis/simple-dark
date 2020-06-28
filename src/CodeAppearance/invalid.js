@@ -1,3 +1,8 @@
+/**
+ * @scope keyword
+ * Elements that are illegal in a specific context should use the following scope. Overuse of this will likely lead to unpleasant highlighting for users as they edit code.
+ * you can be changed to you love the color 
+ */
 const color = require('../base/color')
 
 module.exports = [

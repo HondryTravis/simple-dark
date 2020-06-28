@@ -1,12 +1,12 @@
 # Simple dark Theme
 
-**Allo~**.
+**Allo :D**.
 
 this library is a simple and clear dark style theme for VSCode
 
 let's look that
 
-## code style for typescript/javascript/more
+## code style for typescript/javascript/c#/php/more
 
 ![code](/images/tscode.png)
 
@@ -22,4 +22,4 @@ let's look that
 
 ![appearence](/images/appearence.png)
 
-would you like this one, please give this library a star~
+Maybe you like this one, please give this repository one star~

@@ -1,3 +1,8 @@
+/**
+ * @scope constant
+ * Single and multi-line comments
+ * you can be changed to you love the color 
+ */
 const color = require('../base/color')
 module.exports = [
     //

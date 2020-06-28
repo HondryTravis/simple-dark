@@ -1,4 +1,8 @@
-//punctuation
+/**
+ * @scope punctuation
+ * The following scopes are punctuation scopes that are not embedded within other scopes. For instance, the string. section includes documentation about scopes for string punctuation.
+ * you can be changed to you love the color 
+ */
 const color = require('../base/color')
 
 module.exports = [
