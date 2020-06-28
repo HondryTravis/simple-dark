@@ -8,6 +8,14 @@ You can look this website
 
 [Language helper](https://www.sublimetext.com/docs/3/scope_naming.html#comment)
 
+## development this one
+
+Please run build after each modification, and then look you changed
+
+```bash
+  npm run build
+```
+
 ## if u not vsce
 
 ```bash
