@@ -4,12 +4,23 @@
  * you can be changed to you love the color  
  */
 const color = require('../base/color')
-module.exports = {
+module.exports = [
+  {
     "name": "storage",
     "scope": [
-        "storage"
+      "storage"
     ],
     "settings": {
-        "foreground": color['pink']
+      "foreground": color['pink']
     }
-}
+  },
+  {
+    "name": "storage for c#",
+    "scope": [
+      "storage.type.cs"
+    ],
+    "settings": {
+      "foreground": color['blueLight']
+    }
+  }
+]

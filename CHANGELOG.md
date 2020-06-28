@@ -2,6 +2,10 @@
 
 All notable changes to the "simple-dark" extension will be documented in this file.
 
+## [released 0.1.7]
+
+- update in c# file new class color
+
 ## [released 0.1.6]
 
 - update CHANGELOG file
