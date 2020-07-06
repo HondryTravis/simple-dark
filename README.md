@@ -8,18 +8,24 @@ let's look that
 
 ## code style for typescript/javascript/c#/php/more
 
-![code](/images/tscode.png)
+C# code style
+
+![code](/images/dotnet.png)
+
+PHP code style
+
+![code](/images/php.png)
+
+ts/js code style
+
+![code](/images/ts.png)
 
 ## html style
 
 ![html](/images/html.png)
 
-## markdown style
-
-![markdown](/images/markdown.png)
-
 ## this vscode theme Apperaence
 
-![appearence](/images/appearence.png)
+![appearence](/images/apnc.png)
 
-Maybe you like this one, please give this repository one star~
+Maybe you like this one, please give this repository a star~

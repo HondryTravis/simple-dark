@@ -17,6 +17,7 @@ module.exports = [
         }
     },
     {
+      "name": "Use for in HTML attr id",
       "scope": [
         "meta.toc-list.id.html",
         "meta.attribute-with-value.id"

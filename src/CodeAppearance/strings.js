@@ -29,6 +29,7 @@ module.exports = [
     }
   },
   {
+    "name": "Use for css",
     "scope": [
       "string.unquoted.attribute-value.css"
     ],

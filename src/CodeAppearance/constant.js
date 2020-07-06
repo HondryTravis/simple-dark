@@ -16,6 +16,7 @@ module.exports = [
         }
     },
     {
+      "name": "Use for css",
       "scope": [
         "punctuation.definition.constant.css",
         "constant.other.color.rgb-value.hex.css",

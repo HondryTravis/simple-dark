@@ -53,6 +53,7 @@ module.exports = [
         }
     },
     {
+        "name": "Use for jsdoc comment",
         "scope": [
             "punctuation.definition.block.tag.jsdoc",
             "punctuation.definition.template-expression.begin",
@@ -63,6 +64,7 @@ module.exports = [
         }
     },
     {
+        "name":  "Use for jsdoc comment",
         "scope": [
             "punctuation.definition.bracket.curly.begin.jsdoc",
             "punctuation.definition.bracket.curly.end.jsdoc"
