@@ -32,4 +32,4 @@
 
 ## 更方便的个人扩展
 
-什么样，随你心而定[quick  start](./quick_start.md)
+什么样，随你而定[quick  start](./quick_start.md)
