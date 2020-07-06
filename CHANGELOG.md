@@ -1,6 +1,8 @@
 # Change Log
 
-All notable changes to the "simple-dark" extension will be documented in this file.
+## [released 0.1.8]
+
+- update README.md
 
 ## [released 0.1.7]
 
