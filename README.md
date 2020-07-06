@@ -24,7 +24,7 @@ ts/js code style
 
 ![html](/images/html.png)
 
-## this vscode theme Apperaence
+## this vscode theme Appearance
 
 ![appearence](/images/apnc.png)
 
