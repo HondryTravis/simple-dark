@@ -14,7 +14,7 @@ module.exports = [
       "constant.other"
     ],
     "settings": {
-      "foreground": color['white']
+      "foreground": color['mediumWhite']
     }
   },
   {

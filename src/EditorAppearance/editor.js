@@ -3,7 +3,7 @@ const color = require('../base/color')
 module.exports = {
     // code main
     "editor.background": color['gray'],
-    "editor.foreground": color['white'],
+    "editor.foreground": color['mediumWhite'],
     // find Match attr
     "editor.findMatchBackground": color['blackGrayLowerLight'],
     "editor.findMatchHighlightBackground": color['blackGrayLight'],

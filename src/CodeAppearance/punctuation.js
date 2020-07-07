@@ -16,7 +16,7 @@ module.exports = [
             "punctuation.accessor"
         ],
         "settings": {
-            "foreground": color['white']
+            "foreground": color['mediumWhite']
         }
     },
     {

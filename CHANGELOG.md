@@ -1,8 +1,8 @@
 # Change Log
 
-## [released 0.1.8]
+## [released 0.1.9]
 
-- update README.md
+- updated main code colors so that they are no longer too dazzling
 
 ## [released 0.1.7]
 
