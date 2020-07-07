@@ -25,6 +25,6 @@ module.exports = {
     blue: "#1e90ff",
     yellowLight: "#eefa7a",
     // update code color
-    mediumWhite:"#d9d9d9"
+    mediumWhite:"#dddddd"
    
 }

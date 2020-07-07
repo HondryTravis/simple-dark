@@ -1,5 +1,9 @@
 # Change Log
 
+## [released 0.2.0]
+
+- updated main code color to #dddddd
+
 ## [released 0.1.9]
 
 - updated main code colors so that they are no longer too dazzling
