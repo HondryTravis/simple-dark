@@ -8,6 +8,8 @@ You can look this website
 
 [Language helper](https://www.sublimetext.com/docs/3/scope_naming.html#comment)
 
+[theme keyword](https://code.visualstudio.com/api/references/theme-color)
+
 ## development this one
 
 Please run build after each modification, and then look you changed
