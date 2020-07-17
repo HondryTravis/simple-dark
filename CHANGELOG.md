@@ -1,5 +1,9 @@
 # Change Log
 
+## [released 0.2.1]
+
+- Fixed search word/string background, Is easier to see
+
 ## [released 0.2.0]
 
 - updated main code color to #dddddd

@@ -4,12 +4,13 @@ module.exports = {
     // code main
     "editor.background": color['gray'],
     "editor.foreground": color['mediumWhite'],
-    // find Match attr
-    "editor.findMatchBackground": color['blackGrayLowerLight'],
+
+    // find Match string attr
     "editor.findMatchHighlightBackground": color['blackGrayLight'],
 
     // mouse hover color 
     "editor.hoverHighlightBackground": color['blackGrayLight'],
+    
     // editor selected attr 
     "editor.selectionBackground": color['blackGrayLight'],
     "editor.selectionForeground": color['white'],
