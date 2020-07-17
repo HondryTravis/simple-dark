@@ -3,5 +3,5 @@ module.exports = {
     // git 
     "gitDecoration.modifiedResourceForeground": color['cyan'],
     "gitDecoration.addedResourceForeground": color['green'],
-    "gitDecoration.deletedResourceForeground": color['red'],
+    "gitDecoration.deletedResourceForeground": color['tomato'],
 }

@@ -1,5 +1,12 @@
 # Change Log
 
+## [released 0.2.2]
+
+- changed resource manager list error background color
+- add statusbar no folder background color
+- changed git history deleted resource foreground color
+- add someone default color
+
 ## [released 0.2.1]
 
 - Fixed search word/string background, Is easier to see
