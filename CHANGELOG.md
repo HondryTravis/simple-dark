@@ -1,5 +1,9 @@
 # Change Log
 
+## [released 0.2.4]
+
+- fixed some questions
+
 ## [released 0.2.3]
 
 - fixed pink color repeat
