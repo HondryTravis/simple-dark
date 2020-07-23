@@ -1,5 +1,9 @@
 # Change Log
 
+## [released 0.2.3]
+
+- Fixed some questions
+
 ## [released 0.2.2]
 
 - changed resource manager list error background color

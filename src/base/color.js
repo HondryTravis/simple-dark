@@ -12,7 +12,6 @@ module.exports = {
     gray: "#24272a",
     white: "#f0f0f0",
     whiteGray: "#D2D3D9",
-    pink: "#FFC0CB",
     tomato: "#FF6347",
 
     // code 
