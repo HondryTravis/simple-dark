@@ -2,7 +2,7 @@
 
 ## [released 0.2.3]
 
-- Fixed some questions
+- fixed pink color repeat
 
 ## [released 0.2.2]
 
