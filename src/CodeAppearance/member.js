@@ -7,7 +7,7 @@ const color = require('../base/color')
 
 module.exports = [
     {
-        "name": "Meta Function",
+        "name": "color of function name",
         "scope": [
             "meta.function.parameters",
             "entity.name.function"
@@ -25,5 +25,6 @@ module.exports = [
       "settings": {
         "foreground": color['greenLight']
       }
-    }
+    },
+   
 ]

@@ -10,8 +10,6 @@ module.exports = [
     "name": "variable",
     "scope": [
       "variable",
-      "string constant.other.placeholder",
-      "constant.other"
     ],
     "settings": {
       "foreground": color['mediumWhite']
@@ -40,8 +38,8 @@ module.exports = [
   {
     "name": "types",
     "scope": [
-      "meta.return.type.ts",
       "meta.type.annotation",
+      "meta.return.type.ts",
       "meta.interface.ts",
       "keyword.type.cs"
     ],
@@ -50,19 +48,9 @@ module.exports = [
     }
   },
   {
-    "name": "other.object.constant general",
+    "name": "other.object style",
     "scope": [
-      "variable.other.constant.property",
-      "variable.other.constant.object.property."
-    ],
-    "settings": {
-      "foreground": color['purple']
-    }
-  },
-  {
-    "name": "other.object for C# style",
-    "scope": [
-      "variable.other.object.cs"
+      "variable.other.object.cs",
     ],
     "settings": {
       "foreground": color['cyan']

@@ -12,8 +12,8 @@ const constant = require('./constant')
 const punctuation = require('./punctuation')
 const string = require('./strings')
 const entity = require('./entity')
+const member = require('./member')
 const source = require('./source')
-const meta = require('./meta')
 const support = require('./support')
 const markup = require('./markup')
 const temp = [
@@ -27,7 +27,7 @@ const temp = [
     string,
     entity,
     source,
-    meta,
+    member,
     support,
     markup
 ]
