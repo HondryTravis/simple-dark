@@ -1,5 +1,9 @@
 # Change Log
 
+## [released 0.2.6]
+
+- fixed more questions, do better theme, :D
+
 ## [released 0.2.5]
 
 - new features, add a new semantic highlight style!!!
