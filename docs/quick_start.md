@@ -6,7 +6,9 @@ You can key down `ctrl/command + shift + p` then input `developer` and selected 
 
 You can look this website
 
-[Language helper](https://www.sublimetext.com/docs/3/scope_naming.html#comment)
+sublimetext code rules: [Language helper rule](https://www.sublimetext.com/docs/3/scope_naming.html#comment)
+
+TextMate code rules: [Language helper rule](https://macromates.com/manual/en/language_grammars#rule_keys)
 
 [theme keyword](https://code.visualstudio.com/api/references/theme-color)
 
