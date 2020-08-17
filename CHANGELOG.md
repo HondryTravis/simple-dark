@@ -1,5 +1,10 @@
 # Change Log
 
+## [released 0.2.5]
+
+- new features, add a new semantic highlight style!!!
+- fixed some questions
+
 ## [released 0.2.4]
 
 - fixed some questions
