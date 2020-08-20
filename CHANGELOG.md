@@ -1,5 +1,9 @@
 # Change Log
 
+## [released 0.2.8]
+
+- fixed React tsx/jsx/ts [?.] ...
+
 ## [released 0.2.7]
 
 - fixed sass/less variable color and rename something config property value
