@@ -1,7 +1,7 @@
 /**
  * @scope Variables
  * code Variables style in this file
- * you can be changed to you love the color 
+ * you can be changed to you love the color
  */
 
 const color = require('../BaseColor')
@@ -43,12 +43,13 @@ module.exports = [
     }
   },
   {
-    "name": "Variables less,sass ...",
+    "name": "Variables Less Sass ...",
     "scope": [
-      "variable.other.interpolation",
+      "variable.scss",
+      "variable.other.interpolation.less",
     ],
     "settings": {
-      "foreground": color['pink']
+      "foreground": color['lightCyan']
     }
   },
 

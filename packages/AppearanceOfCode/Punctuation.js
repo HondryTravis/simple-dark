@@ -1,7 +1,7 @@
 /**
  * @scope Punctuation
  * The following scopes are punctuation scopes that are not embedded within other scopes. For instance, the string. section includes documentation about scopes for string punctuation.
- * you can be changed to you love the color 
+ * you can be changed to you love the color
  */
 const color = require('../BaseColor')
 
@@ -20,7 +20,7 @@ module.exports = [
         }
     },
     {
-        "name": "Punctuation color at the start and end of string",
+        "name": "Punctuation: color at the start and end of string",
         "scope": [
            "punctuation.definition.string.begin",
            "punctuation.definition.string.end",
@@ -32,7 +32,7 @@ module.exports = [
         }
     },
     {
-        "name": "JSON color",
+        "name": "Punctuation: JSON color",
         "scope": [
             "string.json",
             "punctuation.support.type.property-name.begin",
@@ -44,7 +44,7 @@ module.exports = [
         }
     },
     {
-        "name": "Escape character",
+        "name": "Punctuation: Escape character",
         "scope": [
             "punctuation.definition.entity"
         ],
@@ -53,7 +53,7 @@ module.exports = [
         }
     },
     {
-        "name": "Use for jsdoc comment",
+        "name": "Punctuation: Use for jsdoc comment",
         "scope": [
             "punctuation.definition.block.tag.jsdoc",
             "punctuation.definition.template-expression.begin",
@@ -64,7 +64,7 @@ module.exports = [
         }
     },
     {
-        "name":  "Use for jsdoc comment",
+        "name":  "Punctuation: Use for jsdoc comment",
         "scope": [
             "punctuation.definition.bracket.curly.begin.jsdoc",
             "punctuation.definition.bracket.curly.end.jsdoc"
@@ -75,7 +75,7 @@ module.exports = [
     },
     {
 
-      "name": "less,css,sass,html",
+      "name": "Punctuation: use for less,css,sass,html",
       "scope": [
         "punctuation.separator.key-value",
         "punctuation.definition.variable",
@@ -91,4 +91,3 @@ module.exports = [
       }
     }
 ]
-    

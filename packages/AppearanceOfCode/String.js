@@ -1,13 +1,13 @@
 /**
  * @scope String
  * code string style in this file
- * you can be changed to you love the color  
+ * you can be changed to you love the color
  */
 const color = require('../BaseColor')
 
 module.exports = [
   {
-    "name": "String:quoted | template",
+    "name": "String: Quoted | Template",
     "scope": [
       "string.quoted.single",
       "string.quoted.double",
@@ -20,7 +20,7 @@ module.exports = [
     }
   },
   {
-    "name": "Regular string",
+    "name": "String: Regexp",
     "scope": [
       "string.regexp",
     ],
@@ -29,7 +29,7 @@ module.exports = [
     }
   },
   {
-    "name": "Use for css",
+    "name": "String-Attribute: CSS",
     "scope": [
       "string.unquoted.attribute-value.css"
     ],

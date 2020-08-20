@@ -7,7 +7,7 @@ const color = require('../BaseColor')
 
 module.exports = [
     {
-        "name": "color of function name",
+        "name": "Meta: Color of Function name",
         "scope": [
             "meta.function.parameters",
             "entity.name.function"
@@ -17,7 +17,7 @@ module.exports = [
         }
     },
     {
-      "name": "Use for in HTML attr id",
+      "name": "Meta: Use for in HTML attr id",
       "scope": [
         "meta.toc-list.id.html",
         "meta.attribute-with-value.id",
@@ -27,7 +27,7 @@ module.exports = [
       }
     },
     {
-      "name": "Use for in HTML @",
+      "name": "Meta: Use for in HTML @",
       "scope": [
         "meta.tag.block.any"
       ],

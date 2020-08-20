@@ -1,13 +1,13 @@
 /**
  * @scope Entity
  * The entity scopes are generally assigned to the names of data structures, types and other uniquely-identifiable constructs in code and markup. The notable exceptions are entity.name.tag and entity.other.attribute-name, which are used in HTML and XML tags.
- * you can be changed to you love the color 
+ * you can be changed to you love the color
  */
 const color = require('../BaseColor')
 
 module.exports = [
   {
-    "name": "Entity Attribute Name",
+    "name": "Entity: Attribute Name",
     "scope": [
       "entity.name.type",
       "entity.other.inherited-class",
@@ -18,7 +18,7 @@ module.exports = [
     }
   },
   {
-    "name": "Entity CSS: hover ...",
+    "name": "Entity: Css[hover...] ...",
     "scope": [
       "entity.other.attribute-name.pseudo-element",
     ],
@@ -27,7 +27,7 @@ module.exports = [
     }
   },
   {
-    "name": "Entity TagName",
+    "name": "Entity: TagName",
     "scope": [
       "entity.name.tag"
     ],
@@ -36,7 +36,7 @@ module.exports = [
     }
   },
   {
-    "name": "Native Object[Array,Object]",
+    "name": "Entity: Native-Object[Array,Object]",
     "scope": [
       "entity.name.type.class",
     ],

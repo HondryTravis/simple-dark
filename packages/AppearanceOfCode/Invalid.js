@@ -1,6 +1,6 @@
 /**
  * @scope Invalid
- * stuff which is “invalid”. 
+ * stuff which is “invalid”.
  */
 const color = require('../BaseColor')
 
@@ -16,7 +16,7 @@ module.exports = [
     }
   },
   {
-    "name": "Invalid HTML attribute name",
+    "name": "Invalid: HTML[attribute-name]",
     "scope": [
       "invalid.deprecated.entity.other.attribute-name"
     ],
@@ -25,7 +25,7 @@ module.exports = [
     }
   },
   {
-    "name": "Invalid Style attribute name",
+    "name": "Invalid: Style[attribute-name]",
     "scope": [
       "invalid.deprecated.media"
     ],

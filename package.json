@@ -3,7 +3,7 @@
   "displayName": "Simple Dark",
   "publisher": "travis",
   "description": "This one is Simple Dark Theme for VSCode",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "icon": "logo.png",
   "keywords": [
     "vscode theme",
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build": "node build.js",
-    "theme:package": "vsce package",
+    "theme:build": "vsce package",
     "theme:publish": "vsce publish"
   },
   "contributes": {

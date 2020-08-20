@@ -1,5 +1,9 @@
 # Change Log
 
+## [released 0.2.7]
+
+- fixed sass/less variable color and rename something config property value
+
 ## [released 0.2.6]
 
 - fixed more questions, do better theme, :D
