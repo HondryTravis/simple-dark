@@ -98,4 +98,14 @@ module.exports = [
       "foreground": color['pink']
     }
   },
+  {
+    "name": "Punctuation: use for C++/C",
+    "scope": [
+      "punctuation.definition.directive.cpp",
+      "punctuation.definition.directive.c"
+    ],
+    "settings": {
+      "foreground": color['pink']
+    }
+  }
 ]

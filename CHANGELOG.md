@@ -1,5 +1,9 @@
 # Change Log
 
+## [released 0.2.9]
+
+- fixed C++ / C [namespace and #] theme color
+
 ## [released 0.2.8]
 
 - fixed React tsx/jsx/ts [?.] ...

@@ -43,5 +43,15 @@ module.exports = [
     "settings": {
       "foreground": color['deepSkyBlue']
     }
+  },
+  {
+    "name": "Entity: use for C++/C",
+    "scope": [
+      "entity.name.namespace.cpp",
+      "entity.name.namespace.c"
+    ],
+    "settings": {
+      "foreground": color['cyan']
+    }
   }
 ]
