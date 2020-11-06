@@ -21,6 +21,7 @@
     "Themes"
   ],
   "scripts": {
+    "start": "nodemon --watch './packages/**/*.js' --exec 'npm run build'",
     "build": "node build.js",
     "theme:build": "vsce package",
     "theme:publish": "vsce publish"
@@ -33,5 +34,8 @@
         "path": "./themes/Simple Dark-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
