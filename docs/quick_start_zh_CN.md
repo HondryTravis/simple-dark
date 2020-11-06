@@ -30,8 +30,6 @@ TextMate:[Language helper rule](https://macromates.com/manual/en/language_gramma
 ## 发布
 
 ```bash
-  # first one
   vsce package
-  # and then
   vsce publish
 ```
