@@ -8,10 +8,10 @@ module.exports = {
     // find Match string attr
     "editor.findMatchHighlightBackground": color['gray'],
 
-    // mouse hover color 
+    // mouse hover color
     "editor.hoverHighlightBackground": color['gray'],
-    
-    // editor selected attr 
+
+    // editor selected attr
     "editor.selectionBackground": color['gray'],
     "editor.selectionForeground": color['white'],
     "editor.selectionHighlightBackground": color['gray'],

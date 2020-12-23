@@ -7,9 +7,10 @@ const MiniMap = require('./MiniMap')
 const Panel = require('./Panel')
 const StatusBar = require('./StatusBar')
 const Terminal = require('./Terminal')
+const TitleBar = require('./Titlebar')
 
 
-const colors = Object.assign({}, 
+const colors = Object.assign({},
   ActiveBar,
   EditorArea,
   TabGroupOfEditor,
@@ -18,7 +19,8 @@ const colors = Object.assign({},
   MiniMap,
   Panel,
   StatusBar,
-  Terminal
+  Terminal,
+  TitleBar
 )
 module.exports = {
   colors
