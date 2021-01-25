@@ -8,7 +8,7 @@ const Panel = require('./Panel')
 const StatusBar = require('./StatusBar')
 const Terminal = require('./Terminal')
 const TitleBar = require('./Titlebar')
-
+const InputCtrl = require('./InputCtrl')
 
 const colors = Object.assign({},
   ActiveBar,
@@ -20,7 +20,8 @@ const colors = Object.assign({},
   Panel,
   StatusBar,
   Terminal,
-  TitleBar
+  TitleBar,
+  InputCtrl
 )
 module.exports = {
   colors

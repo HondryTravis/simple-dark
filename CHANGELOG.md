@@ -1,5 +1,9 @@
 # Change Log
 
+## [released 0.3.3]
+
+- Improved color scheme, do better theme
+
 ## [released 0.3.2]
 
 - Improved Titlebar color

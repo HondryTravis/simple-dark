@@ -5,8 +5,8 @@
  */
 module.exports = {
   // dark color
-  black: "#1d1e21",
-  lightBlack: "#24272a",
+  black: "#202124",
+  lightBlack: "#24272A",
   gray: "#444444",
   darkGary: "#2c2f32",
   lightGray: "#737373",
