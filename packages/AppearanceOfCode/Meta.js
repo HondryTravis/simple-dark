@@ -1,7 +1,7 @@
 /**
  * @scope Meta
  * Meta scopes are used to scope larger sections of code or markup, generally containing multiple, more specific scopes. These are not intended to be styled by a color scheme, but used by preferences and plugins.
- * you can be changed to you love the color 
+ * you can be changed to you love the color
  */
 const color = require('../BaseColor')
 
@@ -35,4 +35,13 @@ module.exports = [
         "foreground": color['pink']
       }
     },
+    {
+      "name": "Meta: Use for in CSS unit rpx",
+      "scope": [
+        "meta.property-value.css"
+      ],
+      "settings": {
+        "foreground": color['pink']
+      }
+    }
 ]
