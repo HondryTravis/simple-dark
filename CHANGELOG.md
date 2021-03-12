@@ -1,5 +1,10 @@
 # Change Log
 
+## [released 0.3.5]
+
+- Improved Widget background color
+- Improved default focusBorder color
+
 ## [released 0.3.4]
 
 - Improve rpx unit color

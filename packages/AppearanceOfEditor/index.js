@@ -1,3 +1,4 @@
+const Base = require('./Base')
 const ActiveBar = require('./ActiveBar')
 const EditorArea = require('./EditorArea')
 const TabGroupOfEditor = require('./TabGroupOfEditor')
@@ -9,8 +10,10 @@ const StatusBar = require('./StatusBar')
 const Terminal = require('./Terminal')
 const TitleBar = require('./Titlebar')
 const InputCtrl = require('./InputCtrl')
+const Widget = require('./Widget')
 
 const colors = Object.assign({},
+  Base,
   ActiveBar,
   EditorArea,
   TabGroupOfEditor,
@@ -21,7 +24,8 @@ const colors = Object.assign({},
   StatusBar,
   Terminal,
   TitleBar,
-  InputCtrl
+  InputCtrl,
+  Widget
 )
 module.exports = {
   colors

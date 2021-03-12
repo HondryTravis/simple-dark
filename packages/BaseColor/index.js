@@ -29,4 +29,6 @@ module.exports = {
   deepSkyBlue: "#00bfff",
   mediumBlue: "#00A1F1",
   lightYellow: "#eefa7a",
+  // primary color
+  blue_ctrl: "#00A1F1"
 }
