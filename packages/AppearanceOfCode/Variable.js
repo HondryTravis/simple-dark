@@ -52,5 +52,14 @@ module.exports = [
       "foreground": color['lightCyan']
     }
   },
+  {
+    "name": "Variables parameter for C#",
+    "scope": [
+      "entity.name.variable.parameter.cs"
+    ],
+    "settings": {
+      "foreground": color['orange']
+    }
+  },
 
 ]

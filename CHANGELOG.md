@@ -1,5 +1,9 @@
 # Change Log
 
+## [released 0.3.6]
+
+- Variables parameter for C#
+
 ## [released 0.3.5]
 
 - Improved Widget background color
