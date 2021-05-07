@@ -107,5 +107,16 @@ module.exports = [
     "settings": {
       "foreground": color['pink']
     }
+  },
+  {
+    "name": "Punctuation: use for markdown [] symbol",
+    "scope": [
+      "punctuation.definition.string.end.markdown",
+      "punctuation.definition.string.begin.markdown",
+      "punctuation.definition.metadata.markdown"
+    ],
+    "settings": {
+      "foreground": color['pink']
+    }
   }
 ]

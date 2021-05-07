@@ -1,5 +1,12 @@
 # Change Log
 
+## [released 0.3.8]
+- improved uniform identifier
+
+## [released 0.3.7]
+- fix markdown [] symbol color
+
+
 ## [released 0.3.6]
 
 - Variables parameter for C#
