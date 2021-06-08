@@ -1,5 +1,8 @@
 # Change Log
 
+## [released 0.3.9]
+- improved link and inline code color where in markdown file
+
 ## [released 0.3.8]
 - improved uniform identifier
 

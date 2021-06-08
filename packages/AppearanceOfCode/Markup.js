@@ -1,7 +1,7 @@
 /**
  * @scope markup
  * Markup scopes are used for content, as opposed to code. This includes syntaxes such as Markdown and Textile.
- * you can be changed to you love the color 
+ * you can be changed to you love the color
  */
 const color = require('../BaseColor')
 
@@ -41,7 +41,7 @@ module.exports = [
       "markup.fenced_code.block.markdown"
     ],
     "settings": {
-      "foreground": color['lightGreen']
+      "foreground": color['lightBlue']
     }
   },
   {
@@ -51,7 +51,7 @@ module.exports = [
       "markup.inline.raw.string.markdown",
     ],
     "settings": {
-      "foreground": color['green']
+      "foreground": color['lightBlue']
     }
   },
   {
@@ -60,7 +60,7 @@ module.exports = [
       "markup.underline.link.markdown",
     ],
     "settings": {
-      "foreground": color['deepSkyBlue']
+      "foreground": color['lightBlue']
     }
   },
   {
@@ -100,17 +100,16 @@ module.exports = [
     "settings": {
       "foreground": color['pink']
     }
-     
+
   },
   {
     "name": "MarkDown - image - link",
     "scope": [
       "markup.underline.link.image.markdown",
-      // "meta.image.inline.markdown"
     ],
     "settings": {
-      "foreground": color['deepSkyBlue']
-    }//string.other.link.description.markdown
+      "foreground": color['lightBlue']
+    }
   },
   {
     "name": "MarkDown - image - description",
