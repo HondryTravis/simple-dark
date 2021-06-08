@@ -10,6 +10,7 @@ const Meta = require('./Meta')
 const String = require('./String')
 const Punctuation = require('./Punctuation')
 const Support = require('./Support')
+const Source = require('./Source')
 
 const tokenColors = [
   ...Variables,
@@ -23,7 +24,8 @@ const tokenColors = [
   ...Meta,
   ...String,
   ...Punctuation,
-  ...Support
+  ...Support,
+  ...Source
 ]
 module.exports = {
   tokenColors
