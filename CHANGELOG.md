@@ -1,5 +1,8 @@
 # Change Log
 
+## [released 0.3.11]
+- fix python import object color
+
 ## [released 0.3.10]
 - improved python import object color
 
