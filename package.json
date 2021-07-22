@@ -28,7 +28,7 @@
   "scripts": {
     "start": "nodemon --watch './packages/**/*.js' --exec 'npm run build'",
     "build": "node build.js",
-    "deploy":"sh scripts/deploy.sh",
+    "deploy": "sh scripts/deploy.sh",
     "theme:build": "vsce package",
     "theme:publish": "vsce publish"
   },
@@ -37,11 +37,18 @@
       {
         "label": "Simple Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Simple Dark-color-theme.json"
+        "path": "./themes/dark.json"
+      },
+      {
+        "label": "Simple Dark Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-soft.json"
       }
     ]
   },
   "devDependencies": {
+    "color": "^4.0.0",
+    "minimist": "^1.2.5",
     "nodemon": "^2.0.6"
   }
 }

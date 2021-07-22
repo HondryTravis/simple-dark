@@ -1,5 +1,8 @@
-const color = require('../BaseColor')
-module.exports = {
-     // find/replace
-     "editorWidget.background": color['black'],
+function getConfig(color) {
+  return {
+    // find/replace
+    "editorWidget.background": color['black'],
+  }
 }
+
+module.exports = getConfig

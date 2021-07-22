@@ -1,5 +1,8 @@
-const color = require('../BaseColor')
-module.exports = {
-     // panel
-     "panelTitle.activeBorder": color['deepSkyBlue']
+function getConfig(color) {
+  return {
+    // panel
+    "panelTitle.activeBorder": color['deepSkyBlue']
+  }
 }
+
+module.exports = getConfig

@@ -1,6 +1,5 @@
-const color = require('../BaseColor')
-
-module.exports = {
+function getConfig(color) {
+  return {
     // code main
     "editor.background": color['lightBlack'],
     "editor.foreground": color['mediumWhite'],
@@ -15,10 +14,13 @@ module.exports = {
     "editor.selectionBackground": color['gray'],
     "editor.selectionForeground": color['white'],
     "editor.selectionHighlightBackground": color['gray'],
-    "editor.wordHighlightBackground":  color['gray'],
+    "editor.wordHighlightBackground": color['gray'],
     "editor.wordHighlightStrongBackground": color['gray'],
 
     // bugs
     "editorWarning.foreground": color['red'],
     "editorInfo.foreground": color['green'],
+  }
 }
+
+module.exports = getConfig

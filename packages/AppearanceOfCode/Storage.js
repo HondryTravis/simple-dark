@@ -4,25 +4,27 @@
  * you can be changed to you love the color
  */
 
-const color = require('../BaseColor')
+function getConfig(color) {
+  return [
+    {
+      "name": "Storage",
+      "scope": [
+        "storage"
+      ],
+      "settings": {
+        "foreground": color['pink']
+      }
+    },
+    {
+      "name": "Storage: Type for c#",
+      "scope": [
+        "storage.type.cs"
+      ],
+      "settings": {
+        "foreground": color['deepSkyBlue']
+      }
+    }
+  ]
+}
 
-module.exports = [
-  {
-    "name": "Storage",
-    "scope": [
-      "storage"
-    ],
-    "settings": {
-      "foreground": color['pink']
-    }
-  },
-  {
-    "name": "Storage: Type for c#",
-    "scope": [
-      "storage.type.cs"
-    ],
-    "settings": {
-      "foreground": color['deepSkyBlue']
-    }
-  }
-]
+module.exports = getConfig

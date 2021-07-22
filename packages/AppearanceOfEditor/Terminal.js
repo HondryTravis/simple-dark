@@ -1,4 +1,8 @@
-const color = require('../BaseColor')
-module.exports = {
+
+function getConfig(color) {
+  return {
     "terminal.background": color['lightBlack'],
+  }
 }
+
+module.exports = getConfig

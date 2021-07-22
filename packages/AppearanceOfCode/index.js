@@ -11,20 +11,24 @@ const String = require('./String')
 const Punctuation = require('./Punctuation')
 const Support = require('./Support')
 
-const tokenColors = [
-  ...Variables,
-  ...Comment,
-  ...Invalid,
-  ...Keyword,
-  ...Storage,
-  ...Markup,
-  ...Constant,
-  ...Entity,
-  ...Meta,
-  ...String,
-  ...Punctuation,
-  ...Support
-]
-module.exports = {
-  tokenColors
+
+function getTokenColors(color) {
+  const tokenColors = [
+    ...Variables(color),
+    ...Comment(color),
+    ...Invalid(color),
+    ...Keyword(color),
+    ...Storage(color),
+    ...Markup(color),
+    ...Constant(color),
+    ...Entity(color),
+    ...Meta(color),
+    ...String(color),
+    ...Punctuation(color),
+    ...Support(color)
+  ]
+  return {
+    tokenColors: tokenColors
+  }
 }
+module.exports = getTokenColors

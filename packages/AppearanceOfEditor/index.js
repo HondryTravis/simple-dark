@@ -12,21 +12,26 @@ const TitleBar = require('./Titlebar')
 const InputCtrl = require('./InputCtrl')
 const Widget = require('./Widget')
 
-const colors = Object.assign({},
-  Base,
-  ActiveBar,
-  EditorArea,
-  TabGroupOfEditor,
-  GitTip,
-  SideBarList,
-  MiniMap,
-  Panel,
-  StatusBar,
-  Terminal,
-  TitleBar,
-  InputCtrl,
-  Widget
-)
-module.exports = {
-  colors
+
+
+function getColors(color) {
+  const colors = Object.assign({},
+    Base(color),
+    ActiveBar(color),
+    EditorArea(color),
+    TabGroupOfEditor(color),
+    GitTip(color),
+    SideBarList(color),
+    MiniMap(color),
+    Panel(color),
+    StatusBar(color),
+    Terminal(color),
+    TitleBar(color),
+    InputCtrl(color),
+    Widget(color)
+  )
+  return {
+    colors: colors
+  }
 }
+module.exports = getColors

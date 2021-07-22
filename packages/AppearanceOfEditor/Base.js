@@ -1,4 +1,7 @@
-const color = require('../BaseColor')
-module.exports = {
-  "focusBorder": color['blue_ctrl'],
+function getConfig(color) {
+  return {
+    "focusBorder": color['blue_ctrl'],
+  }
 }
+
+module.exports = getConfig

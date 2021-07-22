@@ -1,11 +1,13 @@
-const color = require('../BaseColor')
+function getConfig(color) {
+  return {
+    "sideBar.background": color['black'],
+    "sideBarTitle.foreground": color['white'],
 
-module.exports = {
-  "sideBar.background": color['black'],
-  "sideBarTitle.foreground": color['white'],
+    "sideBarSectionHeader.background": color['darkGary'],
 
-  "sideBarSectionHeader.background": color['darkGary'],
-
-  "list.errorForeground": color['tomato'],
-  "list.warningForeground": color['tomato'],
+    "list.errorForeground": color['tomato'],
+    "list.warningForeground": color['tomato'],
+  }
 }
+
+module.exports = getConfig

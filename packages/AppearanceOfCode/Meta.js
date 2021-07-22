@@ -3,18 +3,17 @@
  * Meta scopes are used to scope larger sections of code or markup, generally containing multiple, more specific scopes. These are not intended to be styled by a color scheme, but used by preferences and plugins.
  * you can be changed to you love the color
  */
-const color = require('../BaseColor')
-
-module.exports = [
+function getConfig(color) {
+  return [
     {
-        "name": "Meta: Color of Function name",
-        "scope": [
-            "meta.function.parameters",
-            "entity.name.function"
-        ],
-        "settings": {
-            "foreground": color['green']
-        }
+      "name": "Meta: Color of Function name",
+      "scope": [
+        "meta.function.parameters",
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": color['green']
+      }
     },
     {
       "name": "Meta: Use for in HTML attr id",
@@ -44,4 +43,6 @@ module.exports = [
         "foreground": color['pink']
       }
     }
-]
+  ]
+}
+module.exports = getConfig
