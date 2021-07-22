@@ -12,6 +12,13 @@ first of all, different colors are used to distinguish native objects and custom
 
 code style for typescript/javascript/html/less/c#/php/more
 
+## list of supported topics
+
+- Simple Dark (standard)
+- Simple Dark Soft (low saturation)
+
+use command: `command/ctrl + k, command/ctrl + t` to choice
+
 ## this vscode theme Appearance
 
 ![appearence](images/appearance.png)
@@ -35,5 +42,41 @@ code style for typescript/javascript/html/less/c#/php/more
 ## less style
 
 ![less](images/less.png)
+
+## custom local changes
+
+In fact, everyone uses different styles, so you can customize that, let's look this
+
+this file: `settings.json`
+
+### editor appearance
+
+```json
+"workbench.colorCustomizations": {
+  "[Simple Dark]": {
+    // do ...
+    "tab.activeBorder": "#ff0000"
+  },
+  "[Simple Dark Soft]": {
+    // do ...
+    "tab.activeBorder": "#ff0000"
+  }
+},
+```
+
+### code style
+
+```json
+"editor.tokenColorCustomizations": {
+  "[Simple Dark]": {
+    // do...
+    "functions": "#FF0000"
+  },
+  "[Simple Dark Soft]": {
+    // do...
+    "functions": "#FF0000"
+  }
+},
+```
 
 Maybe you like this one, please give this repository a star~

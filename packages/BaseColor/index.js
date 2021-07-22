@@ -32,6 +32,8 @@ function defaultColors() {
     lightBlack: "#24272A",
     gray: "#444444",
     darkGary: "#2c2f32",
+
+    // comment
     lightGray: "#737373",
 
     // light color
@@ -58,7 +60,7 @@ function defaultColors() {
   }
 }
 
-
+// console.log(Color('#00bfff').hsl().darken(0.2).hex().toLowerCase())
 function getSoftColors(opts = {}) {
   return {
     ...defaultColors(),
@@ -69,11 +71,15 @@ function getSoftColors(opts = {}) {
 function getColors(mode = 'dark') {
   const def_colors = defaultColors()
   if (mode === 'soft') {
-
     return getSoftColors({
-      pink: '#FF7BBD',
-      green: '#3CB371',
-      orange: '#85C7B5',
+      pink: '#F572B7', // DD7CA0
+      green: '#56b97f',
+      orange: '#D5B884', // F2C3A7
+      cyan: '#9CCBD1',
+      lightCyan: "#F0F0E0",
+      deepSkyBlue: "#4da5c9",
+      lightBlue: '#00A1F1',
+      mediumWhite: "#dcdcdc",
     })
   }
   return def_colors

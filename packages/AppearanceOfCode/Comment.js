@@ -3,7 +3,6 @@
  * Single and multi-line comments
  * you can be changed to you love the color
  */
-
 function getConfig(color) {
   return [
     {

@@ -1,5 +1,8 @@
 # Change Log
 
+## [released 1.0.0]
+- feature: new theme list - simple dark soft
+
 ## [released 0.3.11]
 - fix python import object color
 
