@@ -1,4 +1,7 @@
-# Change Log
+# Release notes for Simple Dark Theme
+
+## [released 1.0.1]
+- fix: in markdown text code scope color
 
 ## [released 1.0.0]
 - feature: new theme list - simple dark soft

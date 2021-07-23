@@ -79,8 +79,7 @@ function getColors(mode = 'dark') {
       cyan: '#9CCBD1',
       lightCyan: "#F0F0E0",
       deepSkyBlue: "#4da5c9",
-      lightBlue: '#00A1F1',
-      mediumWhite: "#dcdcdc",
+      mediumWhite: "#dcdcdc"
     })
   }
   return def_colors
