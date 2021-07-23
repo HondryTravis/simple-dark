@@ -2,7 +2,8 @@
  * @base_color Theme main color config
  * Single and multi-line comments
  * you can be changed to you love the color
- */
+ * All colors pass the test [WCAG](https://www.w3.org/TR/WCAG/#contrast-minimum)
+ *
 
 const Color = require("color");
 
