@@ -1,5 +1,8 @@
 # Release notes for Simple Dark Theme
 
+## [released 1.0.2]
+- changed new logo
+
 ## [released 1.0.1]
 - fix: in markdown text code scope color
 
