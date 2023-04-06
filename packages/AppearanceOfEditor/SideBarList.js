@@ -7,7 +7,7 @@ function getConfig(color) {
     "list.errorForeground": color['tomato'],
     "list.warningForeground": color['tomato'],
 
-    "list.activeSelectionBackground": color['black'],
+    "list.activeSelectionBackground": color['color_ctrl_hover_gray'],
     "list.inactiveSelectionBackground": color['black'],
     "list.hoverBackground": color['color_ctrl_hover_gray'],
     "list.focusAndSelectionOutline": color['deepSkyBlue'],
