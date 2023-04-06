@@ -1,5 +1,11 @@
 # Release notes for Simple Dark Theme
 
+## [released 1.1.1]
+- chore: change logs
+
+## [released 1.1.0]
+- improved sidebar list background and hover colors
+
 ## [released 1.0.1]
 - fix: in markdown text code scope color
 
