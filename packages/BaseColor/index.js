@@ -33,6 +33,7 @@ function defaultColors() {
     lightBlack: "#24272A",
     gray: "#444444",
     darkGary: "#2c2f32",
+    darkGary_low: '#35363a',
 
     // comment
     lightGray: "#737373",
