@@ -1,5 +1,8 @@
 # Release notes for Simple Dark Theme
 
+## [released 1.1.2]
+- fix suggestions item background color
+
 ## [released 1.1.1]
 - chore: change logs
 
