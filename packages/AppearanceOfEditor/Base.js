@@ -1,6 +1,6 @@
 function getConfig(color) {
   return {
-    "focusBorder": color['blue_ctrl'],
+    "focusBorder": color['color_ctrl_blue'],
   }
 }
 

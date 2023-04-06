@@ -57,7 +57,9 @@ function defaultColors() {
     mediumBlue: "#00A1F1",
     lightYellow: "#eefa7a",
     // primary color
-    blue_ctrl: "#00A1F1"
+    color_ctrl_blue: "#00A1F1",
+    color_ctrl_blue_active: '#93B3F2',
+    color_ctrl_hover_gray: '#3D4043',
   }
 }
 
