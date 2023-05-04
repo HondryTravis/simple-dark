@@ -1,5 +1,8 @@
 # Release notes for Simple Dark Theme
 
+## [released 1.1.4]
+- chore: perf logo
+
 ## [released 1.1.3]
 - perf: item background color
 
