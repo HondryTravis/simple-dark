@@ -51,11 +51,11 @@ function getDarkColors() {
 function getLightColors() {
   return {
     // background colors (inverted from dark)
-    black: "#ffffff",      // Main background
+    black: "#fafafa",      // Main background
     lightBlack: "#f3f3f3", // Sidebar/Panel background
     gray: "#e0e0e0",       // Borders/Dividers
     darkGray: "#f5f5f5",   // Input background
-    darkGray_low: '#fafafa',
+    darkGray_low: '#e8e8e8', // Sidebar active selection (slightly darker than hover #f1f3f4)
 
     // comment
     lightGray: "#a0a1a7", // #a0a0a0 Darker gray for better contrast (WCAG AA)
