@@ -1,5 +1,12 @@
 # Release notes for Simple Dark Theme
 
+## [released 1.2.0]
+- feature: New theme added! **Simple Light**
+- feature: WCAG AA compliant syntax highlighting for Light theme
+- feature: Semantic distinction: Red strings vs Green functions in Light theme
+- perf: Optimized sidebar visibility and contrast
+- docs: Updated README with design philosophy and screenshots
+
 ## [released 1.1.4]
 - chore: perf logo
 
