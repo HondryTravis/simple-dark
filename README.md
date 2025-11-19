@@ -1,82 +1,85 @@
-# Simple dark Theme
+# Simple Dark Theme
 
-**Allo :D**.
+A simple, clear, and focused theme for VS Code.
 
-this library is a simple and clear dark style theme for VSCode
+Designed with a specific color philosophy to reduce cognitive load and improve code readability.
 
-referring to Dracula color scheme, the color is fine tuned through its own iteration of dark version
+## Design Philosophy
 
-let's look that
+- **Function-First**: Functions are **Green**, Parameters are **Orange**. This consistent pattern helps you quickly parse code structure.
+- **Semantic Clarity**: Distinct colors for native objects (`DeepSkyBlue`) vs custom types (`Cyan`), making it easy to distinguish built-in types from your own.
+- **Accessibility**: The **Simple Light** theme is designed with WCAG AA contrast standards in mind, ensuring readability even in bright environments.
 
-first of all, different colors are used to distinguish native objects and custom objects,for example Interface Somthing type or js WeakMap type, color is darkSkyblue and cyan, this is very easy to understand in source code reading, function is green,parameter is orange;
+## Available Themes
 
-code style for typescript/javascript/html/less/c#/php/more
+1.  **Simple Dark**
+    *   The standard, balanced dark theme. Perfect for daily use.
+2.  **Simple Dark Soft**
+    *   Lower saturation, softer contrast. Easy on the eyes for long coding sessions.
+3.  **Simple Light** (New!)
+    *   A clean, high-contrast light theme.
+    *   Optimized for readability with darker syntax colors (Green/Orange) on a light background.
+    *   Includes specific semantic highlighting (e.g., Red strings) to distinguish from functions.
 
-## list of supported topics
+## Screenshots
 
-- Simple Dark (standard)
-- Simple Dark Soft (low saturation)
+### Editor Appearance
+![appearance](images/appearance.png)
 
-use command: `command/ctrl + k, command/ctrl + t` to choice
+### TypeScript / JavaScript
+![ts](images/ts.png)
 
-## this vscode theme Appearance
+### C#
+![dotnet](images/dotnet.png)
 
-![appearence](images/appearance.png)
+### PHP
+![php](images/php.png)
 
-## C# code style
-
-![code](images/dotnet.png)
-
-## PHP code style
-
-![code](images/php.png)
-
-## ts/js code style
-
-![code](images/ts.png)
-
-## html style
-
+### HTML
 ![html](images/html.png)
 
-## less style
-
+### LESS / CSS
 ![less](images/less.png)
 
-## custom local changes
+## Installation
 
-In fact, everyone uses different styles, so you can customize that, let's look this
+1.  Open **Extensions** sidebar in VS Code.
+2.  Search for `Simple Dark`.
+3.  Click **Install**.
+4.  Press `Cmd+K Cmd+T` (macOS) or `Ctrl+K Ctrl+T` (Windows/Linux) and select one of the **Simple** themes.
 
-this file: `settings.json`
+## Customization
 
-### editor appearance
+You can customize specific colors in your `settings.json`:
+
+### Workbench Colors (UI)
 
 ```json
 "workbench.colorCustomizations": {
   "[Simple Dark]": {
-    // do ...
-    "tab.activeBorder": "#ff0000"
+    "tab.activeBorder": "#ff0000",
+    "sideBar.background": "#202124"
   },
-  "[Simple Dark Soft]": {
-    // do ...
-    "tab.activeBorder": "#ff0000"
+  "[Simple Light]": {
+    "sideBar.background": "#fafafa"
   }
-},
+}
 ```
 
-### code style
+### Syntax Highlighting
 
 ```json
 "editor.tokenColorCustomizations": {
   "[Simple Dark]": {
-    // do...
-    "functions": "#FF0000"
+    "functions": "#00E673"
   },
-  "[Simple Dark Soft]": {
-    // do...
-    "functions": "#FF0000"
+  "[Simple Light]": {
+    "functions": "#048043"
   }
-},
+}
 ```
 
-Maybe you like this one, please give this repository a star~
+## Feedback
+
+If you like this theme, please give it a star on GitHub!
+Issues and Pull Requests are welcome.
