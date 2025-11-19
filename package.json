@@ -44,6 +44,11 @@
         "label": "Simple Dark Soft",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-soft.json"
+      },
+      {
+        "label": "Simple Light",
+        "uiTheme": "vs",
+        "path": "./themes/light.json"
       }
     ]
   },

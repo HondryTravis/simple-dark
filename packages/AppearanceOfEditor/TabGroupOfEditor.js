@@ -5,7 +5,7 @@ function getConfig(color) {
 
     "tab.activeBorder": color['deepSkyBlue'],
     "tab.activeBackground": color['lightBlack'],
-    "tab.inactiveBackground": color['darkGary'],
+    "tab.inactiveBackground": color['darkGray'],
   }
 }
 module.exports = getConfig

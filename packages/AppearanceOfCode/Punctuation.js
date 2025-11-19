@@ -28,7 +28,7 @@ function getConfig(color) {
         "punctuation.definition.string.template.end"
       ],
       "settings": {
-        "foreground": color['lightGreen']
+        "foreground": color['string_color']
       }
     },
     {

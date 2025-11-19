@@ -16,7 +16,7 @@ function getConfig(color) {
         "string.template"
       ],
       "settings": {
-        "foreground": color['lightGreen']
+        "foreground": color['string_color']
       }
     },
     {

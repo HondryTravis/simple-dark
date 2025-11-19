@@ -3,44 +3,25 @@
  * Single and multi-line comments
  * you can be changed to you love the color
  * All colors pass the test [WCAG](https://www.w3.org/TR/WCAG/#contrast-minimum)
- *
+ */
 
 const Color = require("color");
 
-/*
- * Generate color variant by inverting
- * luminance in the HSL representation
- */
-function getVariant(hex, colorName, style) {
-  const disable = new Set([
-    'black', 'lightBlack', 'gray', 'darkGary', 'lightGray', 'pink', 'orange', 'purple', 'deepSkyBlue'
-  ])
-  switch (style) {
-    case 'soft':
-      if (disable.has(colorName)) return hex
-      const color = Color(hex);
-      return color.hsl().lighten(10).hex().toLowerCase()
-    case 'dark':
-    default:
-      return hex
-  }
-}
-
-function defaultColors() {
+function getDarkColors() {
   return {
     // dark color
     black: "#202124",
     lightBlack: "#24272A",
     gray: "#444444",
-    darkGary: "#2c2f32",
-    darkGary_low: '#35363a',
+    darkGray: "#2c2f32",
+    darkGray_low: '#35363a',
 
     // comment
     lightGray: "#737373",
 
     // light color
     white: "#f0f0f0",
-    garyWhite: "#D2D3D9",
+    grayWhite: "#D2D3D9",
     mediumWhite: "#dddddd",
 
     tomato: "#FF6347",
@@ -61,19 +42,69 @@ function defaultColors() {
     color_ctrl_blue: "#00A1F1",
     color_ctrl_blue_active: '#93B3F2',
     color_ctrl_hover_gray: '#3D4043',
+
+    // semantic
+    string_color: "#C3E88D", // same as lightGreen
   }
 }
 
-// console.log(Color('#00bfff').hsl().darken(0.2).hex().toLowerCase())
+function getLightColors() {
+  return {
+    // background colors (inverted from dark)
+    black: "#ffffff",      // Main background
+    lightBlack: "#f3f3f3", // Sidebar/Panel background
+    gray: "#e0e0e0",       // Borders/Dividers
+    darkGray: "#f5f5f5",   // Input background
+    darkGray_low: '#fafafa',
+
+    // comment
+    lightGray: "#a0a1a7",
+
+    // text colors
+    white: "#202124",      // Main text color (dark for light theme)
+    grayWhite: "#5f6368",  // Secondary text
+    mediumWhite: "#3c4043",
+
+    // Syntax Highlighting - Adjusted for Light Theme
+    // Philosophy: Green for functions, Orange for parameters
+    tomato: "#d93025",
+    pink: "#d01884",
+    cyan: "#007b83",       // Darker cyan for visibility
+    lightCyan: "#006064",  // Much darker for visibility on white
+    green: "#059e53",      // Darker green for functions
+    lightGreen: "#388e3c",
+    orange: "#d67e00",     // Darker orange for parameters
+    purple: "#9334e6",
+    red: "#d93025",
+    blue: "#1a73e8",
+    lightBlue: '#1967d2',
+    deepSkyBlue: "#0277bd", // Darker sky blue for native objects
+    mediumBlue: "#0288d1",
+    lightYellow: "#f9a825", // Darker yellow
+
+    // primary color
+    color_ctrl_blue: "#1a73e8",
+    color_ctrl_blue_active: '#8ab4f8',
+    color_ctrl_hover_gray: '#f1f3f4',
+
+    // semantic
+    string_color: "#a31515", // Red for strings to distinguish from green functions
+  }
+}
+
 function getSoftColors(opts = {}) {
   return {
-    ...defaultColors(),
+    ...getDarkColors(),
     ...opts
   }
 }
-// mode: dark | soft
+
+// mode: dark | soft | light
 function getColors(mode = 'dark') {
-  const def_colors = defaultColors()
+  if (mode === 'light') {
+    return getLightColors();
+  }
+
   if (mode === 'soft') {
     return getSoftColors({
       pink: '#F572B7', // DD7CA0
@@ -85,7 +116,8 @@ function getColors(mode = 'dark') {
       mediumWhite: "#dcdcdc"
     })
   }
-  return def_colors
+
+  return getDarkColors()
 }
 
 module.exports = getColors

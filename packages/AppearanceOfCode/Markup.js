@@ -13,7 +13,7 @@ function getConfig(color) {
         "text.html.markdown"
       ],
       "settings": {
-        "foreground": color['garyWhite']
+        "foreground": color['grayWhite']
       }
     },
     {
