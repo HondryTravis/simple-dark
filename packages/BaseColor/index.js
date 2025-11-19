@@ -58,7 +58,7 @@ function getLightColors() {
     darkGray_low: '#fafafa',
 
     // comment
-    lightGray: "#a0a1a7",
+    lightGray: "#a0a1a7", // #a0a0a0 Darker gray for better contrast (WCAG AA)
 
     // text colors
     white: "#202124",      // Main text color (dark for light theme)
@@ -71,16 +71,16 @@ function getLightColors() {
     pink: "#d01884",
     cyan: "#007b83",       // Darker cyan for visibility
     lightCyan: "#006064",  // Much darker for visibility on white
-    green: "#059e53",      // Darker green for functions
-    lightGreen: "#388e3c",
-    orange: "#d67e00",     // Darker orange for parameters
+    green: "#048043",      // Darker green for functions (WCAG AA)
+    lightGreen: "#2e7d32", // Darker lightGreen (WCAG AA)
+    orange: "#b35900",     // Darker orange/brown for parameters (WCAG AA)
     purple: "#9334e6",
     red: "#d93025",
     blue: "#1a73e8",
     lightBlue: '#1967d2',
     deepSkyBlue: "#0277bd", // Darker sky blue for native objects
-    mediumBlue: "#0288d1",
-    lightYellow: "#f9a825", // Darker yellow
+    mediumBlue: "#0277bd",  // Darker mediumBlue (WCAG AA)
+    lightYellow: "#9a6700", // Darker yellow/gold (WCAG AA)
 
     // primary color
     color_ctrl_blue: "#1a73e8",

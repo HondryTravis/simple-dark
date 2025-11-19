@@ -29,6 +29,7 @@
   "scripts": {
     "start": "nodemon --watch './packages/**/*.js' --exec 'npm run build'",
     "build": "node build.js",
+    "wcag": "node wcag-check.js",
     "deploy": "sh scripts/deploy.sh",
     "theme:build": "vsce package",
     "theme:publish": "vsce publish"
