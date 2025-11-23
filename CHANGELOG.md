@@ -1,5 +1,11 @@
 # Release notes for Simple Dark Theme
 
+## [released 1.3.0]
+- feature: New theme added! **Simple Light Soft**
+- feature: Eye-friendly "Safari Reader Mode" background color (`#F8F1E3`)
+- feature: WCAG AA compliant syntax highlighting for Light Soft theme
+- perf: Improved visual hierarchy for Activity Bar and Sidebar in Light Soft theme
+
 ## [released 1.2.0]
 - feature: New theme added! **Simple Light**
 - feature: WCAG AA compliant syntax highlighting for Light theme

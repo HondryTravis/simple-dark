@@ -16,10 +16,14 @@ Designed with a specific color philosophy to reduce cognitive load and improve c
     *   The standard, balanced dark theme. Perfect for daily use.
 2.  **Simple Dark Soft**
     *   Lower saturation, softer contrast. Easy on the eyes for long coding sessions.
-3.  **Simple Light** (New!)
+3.  **Simple Light**
     *   A clean, high-contrast light theme.
     *   Optimized for readability with darker syntax colors (Green/Orange) on a light background.
     *   Includes specific semantic highlighting (e.g., Red strings) to distinguish from functions.
+4.  **Simple Light Soft** (New!)
+    *   **Eye-Care Focused**: Uses the classic macOS Safari Reader Mode background (`#F8F1E3`) to reduce blue light and eye strain.
+    *   **Paper-Like Experience**: A warm, low-glare environment perfect for long reading and writing sessions.
+    *   **Accessible**: All syntax colors are calibrated to pass WCAG AA contrast standards on the warm background.
 
 ## Screenshots
 
