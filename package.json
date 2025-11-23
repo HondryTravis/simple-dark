@@ -50,6 +50,11 @@
         "label": "Simple Light",
         "uiTheme": "vs",
         "path": "./themes/light.json"
+      },
+      {
+        "label": "Simple Light Soft",
+        "uiTheme": "vs",
+        "path": "./themes/light-soft.json"
       }
     ]
   },

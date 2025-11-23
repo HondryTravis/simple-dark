@@ -10,7 +10,8 @@ const Semantic = require('./packages/Semantic')
 const _path = {
   dark: './themes/dark.json',
   softDark: './themes/dark-soft.json',
-  light: './themes/light.json'
+  light: './themes/light.json',
+  softLight: './themes/light-soft.json'
 }
 
 function buildDarkTheme() {
@@ -33,11 +34,19 @@ function buildLightTheme() {
   return JSON.stringify(result)
 }
 
+function buildLightSoftTheme() {
+  const opts = { name: 'Simple Light Soft' }
+  const mode = 'light-soft'
+  const result = Object.assign({}, AboutMyself(opts), Semantic, Editor(color(mode)), Code(color(mode)))
+  return JSON.stringify(result)
+}
+
 
 async function build() {
   await fs.writeFileSync(_path.dark, buildDarkTheme())
   await fs.writeFileSync(_path.softDark, buildDarkSoftTheme())
   await fs.writeFileSync(_path.light, buildLightTheme())
+  await fs.writeFileSync(_path.softLight, buildLightSoftTheme())
 }
 
 build()

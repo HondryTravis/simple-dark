@@ -50,3 +50,8 @@ checkTheme('Simple Dark Soft', softColors, softColors.black);
 const lightColors = getColors('light');
 checkTheme('Simple Light', lightColors, lightColors.black);
 
+// 4. Check Light Soft Theme
+const lightSoftColors = getColors('light-soft');
+checkTheme('Simple Light Soft', lightSoftColors, lightSoftColors.lightBlack);
+
+

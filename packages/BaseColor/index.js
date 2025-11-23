@@ -92,6 +92,32 @@ function getLightColors() {
   }
 }
 
+function getLightSoftColors() {
+  const lightColors = getLightColors();
+  return {
+    ...lightColors,
+    // background colors - Safari Reader Mode style
+    black: "#FAF5E8",      // Sidebar/Panel background - Slightly lighter
+    lightBlack: "#F8F1E3", // Editor background - Safari Reader Color
+    gray: "#E3DCCF",       // Borders/Dividers
+    darkGray: "#F3ECDE",   // Input & Activity Bar background - Slightly darker
+    darkGray_low: '#EBE4D5', // Sidebar active selection
+    color_ctrl_hover_gray: '#EBE4D5', // Hover state
+
+    // Adjusted colors for WCAG AA on #F8F1E3
+    tomato: "#c02a20",      // was #d93025
+    red: "#c02a20",         // was #d93025
+    cyan: "#006e75",        // was #007b83
+    green: "#03703b",       // was #048043
+    orange: "#9e4f00",      // was #b35900
+    blue: "#155dbd",        // was #1a73e8
+    color_ctrl_blue: "#155dbd", // was #1a73e8
+    deepSkyBlue: "#0166a3", // was #0277bd
+    mediumBlue: "#0166a3",  // was #0277bd
+    lightYellow: "#855900"  // was #9a6700
+  }
+}
+
 function getSoftColors(opts = {}) {
   return {
     ...getDarkColors(),
@@ -99,10 +125,14 @@ function getSoftColors(opts = {}) {
   }
 }
 
-// mode: dark | soft | light
+// mode: dark | soft | light | light-soft
 function getColors(mode = 'dark') {
   if (mode === 'light') {
     return getLightColors();
+  }
+
+  if (mode === 'light-soft') {
+    return getLightSoftColors();
   }
 
   if (mode === 'soft') {
