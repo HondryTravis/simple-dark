@@ -4,9 +4,6 @@
  * you can be changed to you love the color
  * All colors pass the test [WCAG](https://www.w3.org/TR/WCAG/#contrast-minimum)
  */
-
-const Color = require("color");
-
 function getDarkColors() {
   return {
     // dark color
@@ -105,16 +102,17 @@ function getLightSoftColors() {
     color_ctrl_hover_gray: '#EBE4D5', // Hover state
 
     // Adjusted colors for WCAG AA on #F8F1E3
-    tomato: "#c02a20",      // was #d93025
-    red: "#c02a20",         // was #d93025
-    cyan: "#006e75",        // was #007b83
-    green: "#03703b",       // was #048043
-    orange: "#9e4f00",      // was #b35900
+    lightCyan: "#005A65",   // was #006064
+    tomato: "#B71C1C",      // was #d93025
+    red: "#B71C1C",         // was #d93025
+    cyan: "#00788A",        // was #007b83
+    green: "#00753B",       // was #048043
+    orange: "#A05A00",      // was #b35900
     blue: "#155dbd",        // was #1a73e8
     color_ctrl_blue: "#155dbd", // was #1a73e8
-    deepSkyBlue: "#0166a3", // was #0277bd
-    mediumBlue: "#0166a3",  // was #0277bd
-    lightYellow: "#855900"  // was #9a6700
+    deepSkyBlue: "#0166A3", // was #0277bd
+    mediumBlue: "#0166A3",  // was #0277bd
+    lightYellow: "#6A1B9A",  // was #9a6700
   }
 }
 
