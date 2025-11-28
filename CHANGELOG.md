@@ -1,5 +1,30 @@
 # Release notes for Simple Dark Theme
 
+## [released 1.4.0]
+
+### Major Update: Simple Light Soft Refactoring
+
+We have completely redesigned the **Simple Light Soft** theme to provide a true "Reader Mode" experience, focusing on eye comfort and accessibility.
+
+- **New Background**: Adopted the classic Safari Reader Mode color (`#F8F1E3`) for a paper-like reading experience.
+- **Cool-on-Warm Color Strategy**:
+  - Replaced "hot" colors (Yellow, Bright Red, Orange) with "cool" complementary colors (Purple, Crimson, Burnt Orange) to reduce visual fatigue on the warm background.
+  - **Yellow** -> **Deep Purple** (`#6A1B9A`): Provides excellent contrast and a refreshing look.
+  - **Tomato/Red** -> **Crimson** (`#B71C1C`): A cooler, deeper red that is less alarming.
+  - **Orange** -> **Burnt Orange** (`#A05A00`): Retains the "Parameter" identity but with a comfortable autumn tone.
+- **Enhanced Accessibility (WCAG AA)**:
+  - All syntax highlighting colors have been calibrated to pass WCAG AA contrast standards (> 4.5:1) on the new soft background.
+  - **Functions**: Optimized to **Forest Green** (`#00753B`) for perfect clarity.
+  - **Variables**: Adjusted to **Deep Teal** (`#005A65`) to distinguish from functions.
+  - **Types**: Tuned to **Blue-Teal** (`#00788A`) for clear semantic distinction.
+- **UI Consistency**:
+  - Sidebar and Activity Bar colors are now perfectly harmonized with the editor background, creating a unified "physical desk" visual hierarchy.
+
+### Improvements
+
+- **String Color**: Unified string color to **Crimson** (`#B71C1C`) in Soft Light mode for better consistency and readability.
+- **General**: Codebase cleanup and better color definitions for easier maintenance.
+
 ## [released 1.3.0]
 - feature: New theme added! **Simple Light Soft**
 - feature: Eye-friendly "Safari Reader Mode" background color (`#F8F1E3`)
