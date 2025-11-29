@@ -70,7 +70,7 @@ function getLightColors() {
     lightCyan: "#006064",  // Much darker for visibility on white
     green: "#048043",      // Darker green for functions (WCAG AA)
     lightGreen: "#2e7d32", // Darker lightGreen (WCAG AA)
-    orange: "#b35900",     // Darker orange/brown for parameters (WCAG AA)
+    orange: "#BF5400",     // Darker orange/brown for parameters (WCAG AA)
     purple: "#9334e6",
     red: "#d93025",
     blue: "#1a73e8",
@@ -102,12 +102,13 @@ function getLightSoftColors() {
     color_ctrl_hover_gray: '#EBE4D5', // Hover state
 
     // Adjusted colors for WCAG AA on #F8F1E3
+    purple: "#8020D0",
     lightCyan: "#005A65",   // was #006064
     tomato: "#B71C1C",      // was #d93025
     red: "#B71C1C",         // was #d93025
     cyan: "#00788A",        // was #007b83
     green: "#00753B",       // was #048043
-    orange: "#A05A00",      // was #b35900
+    orange: "#BF5400",      // was #b35900
     blue: "#155dbd",        // was #1a73e8
     color_ctrl_blue: "#155dbd", // was #1a73e8
     deepSkyBlue: "#0166A3", // was #0277bd
