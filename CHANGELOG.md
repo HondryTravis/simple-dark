@@ -1,5 +1,10 @@
 # Release notes for Simple Dark Theme
 
+## [released 1.4.1]
+
+- Minor adjustments to Simple Light Soft theme colors.
+- Code style cleanup.
+
 ## [released 1.4.0]
 
 ### Major Update: Simple Light Soft Refactoring
