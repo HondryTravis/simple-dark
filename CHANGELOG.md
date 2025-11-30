@@ -1,5 +1,10 @@
 # Release notes for Simple Dark Theme
 
+## [released 1.4.2]
+
+- **Metadata**: Updated description and keywords to highlight support for Light and Soft modes.
+- **Brand**: Updated extension logo.
+
 ## [released 1.4.1]
 
 - Minor adjustments to Simple Light Soft theme colors.

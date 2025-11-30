@@ -1,6 +1,6 @@
 # Simple Dark Theme
 
-A simple, clear, and focused theme for VS Code.
+A minimalist theme suite for focus. Includes Simple Dark & Light Soft (Eye-friendly) modes.
 
 Designed with a specific color philosophy to reduce cognitive load and improve code readability.
 
