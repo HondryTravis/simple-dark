@@ -1,5 +1,16 @@
 # Release notes for Simple Dark Theme
 
+## [released 1.4.3]
+
+- **Simple Light Soft (Refined Ink & Paper)**:
+  - Major color palette update simulation physical writing experience on paper.
+  - **Secondary Text**: Explicitly set to Cool Gray (`#3c4043`) for AAA clarity.
+  - **Variables**: Changed to Deep Ink Black (`#1B1F23`) for crisp definition.
+  - **Keywords**: Updated to bright purple (`#8020D0`, AA) for clear syntax structure.
+  - **Types**: Optimized to Petrol Blue (`#006F94`, AA) to distinguish from functions.
+  - **Markdown Links**: Kept distinct Blue (`#1967d2`) for interactive feel.
+  - **Consistency**: Unified blue shades for Native Objects to Deep Ink Blue (`#005393`).
+
 ## [released 1.4.2]
 
 - **Metadata**: Updated description and keywords to highlight support for Light and Soft modes.
