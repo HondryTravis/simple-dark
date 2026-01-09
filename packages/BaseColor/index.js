@@ -103,16 +103,16 @@ function getLightSoftColors() {
 
     // Adjusted colors for WCAG AA on #F8F1E3
     purple: "#8020D0",
-    lightCyan: "#005A65",   // was #006064
+    lightCyan: "#1B1F23",   // was #006064
     tomato: "#B71C1C",      // was #d93025
     red: "#B71C1C",         // was #d93025
-    cyan: "#00788A",        // was #007b83
+    cyan: "#006F94",        // was #007b83
     green: "#00753B",       // was #048043
     orange: "#BF5400",      // was #b35900
     blue: "#155dbd",        // was #1a73e8
     color_ctrl_blue: "#155dbd", // was #1a73e8
-    deepSkyBlue: "#0166A3", // was #0277bd
-    mediumBlue: "#0166A3",  // was #0277bd
+    deepSkyBlue: "#005393", // was #0277bd
+    mediumBlue: "#005393",  // was #0277bd
     lightYellow: "#6A1B9A",  // was #9a6700
   }
 }
